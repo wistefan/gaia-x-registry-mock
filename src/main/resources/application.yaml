@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: ${project.artifactId}
+  server:
+    port: 8080
+
+mock:
+  complianceIssuers:
+    - "did:web:compliance.gaia-x.eu"
